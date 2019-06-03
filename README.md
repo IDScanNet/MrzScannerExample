@@ -12,8 +12,8 @@ allprojects {
         }
         ...
     }
-}```
-
+}
+```
 
 2. Add the following to the module **build.gradle** file:
 ```
@@ -67,7 +67,8 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         break;
     }
   }
-}```
+}
+```
 
 #### Error codes:
 

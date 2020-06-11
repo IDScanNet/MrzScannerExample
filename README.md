@@ -19,7 +19,7 @@ allprojects {
 ```
 dependencies {
     ...
-    implementation 'net.idscan.components.android:scanmrz:1.0.0'
+    implementation 'net.idscan.components.android:scanmrz:1.2.0'
     ...
 }
 ```

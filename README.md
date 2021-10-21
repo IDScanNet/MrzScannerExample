@@ -33,7 +33,7 @@ Intent i = new Intent(MainActivity.this, MrzScanActivity.class);
 i.putExtra(MrzScanActivity.EXTRA_LICENSE_KEY, ** LICENSE KEY **);
 startActivityForResult(i, SCAN_ACTIVITY_CODE);
 ```
-**Note** need to replace ```** LICENSE KEY **``` by your **License Key**.
+**Note** need to replace ```** LICENSE KEY **``` by your **License Key**. To obtain a license key, please email your application’s package name to support@idscan.net.
 
 To process the result you need to override ```onActivityResult()``` of your Activity.
 

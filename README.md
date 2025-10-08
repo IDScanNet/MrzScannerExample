@@ -2,24 +2,17 @@
 
 ## Setup
 
-1. Add **idscan-public** maven repository to the project **build.gradle** file.
-```
-allprojects {
-    repositories {
-        ...
-        maven {
-            url 'https://www.myget.org/F/idscan-public/maven/'
-        }
-        ...
-    }
-}
-```
+1. ~~Add **idscan-public** maven repository:~~
+
+   Starting from **v1.5.0**, artifacts are published in Maven Central. Thus, no additional
+   repositories are required. So if you have previously defined ```maven { url = uri("https://www.myget.org/F/idscan-public/maven/") }```
+   repository anywhere, please remove it.
 
 2. Add the following to the module **build.gradle** file:
 ```
 dependencies {
     ...
-    implementation 'net.idscan.components.android:scanmrz:1.3.0'
+    implementation 'net.idscan.components.android:scanmrz:1.5.0'
     ...
 }
 ```
